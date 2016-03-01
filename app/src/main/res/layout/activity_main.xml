@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity"
+    xmlns:custom="http://schemas.android.com/apk/res-auto" >
+
+    <com.baiyyyhjl.customview.view.CustomTitleView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:titleTextView="3712"
+        custom:titleTextColorView="#ff0000"
+        custom:titleTextSizeView="40sp"
+        custom:image="@mipmap/ic_launcher"
+        custom:imageScaleType="center"
+        />
+
+    <com.baiyyyhjl.customview.view.CustomProgressBar
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        custom:firstColor="@color/red"
+        custom:secondColor="@color/yellow"
+        custom:speed="20"
+        custom:circleWidth="20dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="titleTextView" format="string" />
+    <attr name="titleTextColorView" format="color" />
+    <attr name="titleTextSizeView" format="dimension" />
+    <attr name="image" format="reference" />
+    <attr name="imageScaleType">
+        <enum name="fillXY" value="0" />
+        <enum name="center" value="1" />
+    </attr>
+
+    <declare-styleable name="CustomTitleView">
+        <attr name="titleTextView" />
+        <attr name="titleTextColorView" />
+        <attr name="titleTextSizeView" />
+        <attr name="image" />
+        <attr name="imageScaleType" />
+    </declare-styleable>
+
+    <attr name="firstColor" format="color" />
+    <attr name="secondColor" format="color" />
+    <attr name="circleWidth" format="dimension" />
+    <attr name="speed" format="integer" />
+    <declare-styleable name="CustomProgressBar">
+        <attr name="firstColor" />
+        <attr name="secondColor" />
+        <attr name="circleWidth" />
+        <attr name="speed" />
+    </declare-styleable>
+</resources>
